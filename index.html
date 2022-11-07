@@ -1,31 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Esther Rose's Resume</title>
   </head>
 
   <body>
-    <div id="page-wrap">
-      <img src="images/IMG_1217.jpeg" alt="Photo of Esther with son" id="pic" />
-
-      <div id="contact-info" class="vcard">
-        <!-- Microformats! -->
-
-        <h1 class="fn">Esther Rose</h1>
-
+    <header>
+      <h1>Esther Rose</h1>
+      <!-- <img src="images/IMG_1217.jpeg" alt="Photo of Esther with son" id="pic" /> -->
+    </header>
+    <article>
+      <section id="contact-info">
         <p>
           Cell: <span class="tel">###-###-####</span><br />
           Email:
-          <a class="email" href="mailto:example@codarose.com"
-            >example@codarose.com</a
-          >
+          <a class="email" href="mailto:example@codarose.com">
+            example@codarose.com
+          </a>
         </p>
-      </div>
-
-      <div id="objective">
+      </section>
+      <section id="objective">
         <p>
           I am a mobile application developer specializing in the use of
           React/React Native for cross platform development. I am also a tech
@@ -33,96 +30,83 @@
           fiction nerd and a mom. I promise to bring experience and a
           well-rounded energy to any software team.
         </p>
-      </div>
+      </section>
+    </article>
+    <article>
+      <section id="skills">
+        <h2>Skills</h2>
 
-      <div class="clear"></div>
+        <h3>Soft skills</h3>
+        <p>
+          Experience leading teams, leading meetings, developing classes,
+          planning events for community engagement, and fostering an inclusive
+          work and classroom environment
+        </p>
 
-      <dl>
-        <dd class="clear"></dd>
+        <h3>Technical Skills</h3>
+        <p>
+          React, React Native, Java, JavaScript, Mobile Application lifecycle
+        </p>
+      </section>
 
-        <dt>Education</dt>
-        <dd>
-          <h2>University of Minnesota - Twin Cities Campus</h2>
-          <p>
-            <strong>Major:</strong> Neuroscience<br />
-            <strong>Minor:</strong> Computer Science
-          </p>
-        </dd>
+      <section id="experience">
+        <h2>Experience</h2>
 
-        <dd class="clear"></dd>
+        <h3>
+          Technology Educator
+          <span>
+            Teacher/Curriculum Developer - Minneapolis, MN 2017-present
+          </span>
+        </h3>
+        <ul>
+          <li>
+            Develop and vet technical curriculum for adult web development
+            courses
+          </li>
+          <li>Teach adult web development courses</li>
+          <li>
+            Teach fun youth classes to encourage interest in tech career paths
+          </li>
+        </ul>
 
-        <dt>Skills</dt>
-        <dd>
-          <h2>Soft skills</h2>
-          <p>
-            Experience leading teams, leading meetings, developing classes,
-            planning events for community engagement, and fostering an inclusive
-            work and classroom environment
-          </p>
+        <h3>
+          Freelance Mobile Application Developer
+          <span>Developer - Minneapolis, MN 2015-present</span>
+        </h3>
+        <ul>
+          <li>
+            Updated existing apps to migrate them to a modern, cross-platform
+            tool
+          </li>
+          <li>
+            Developed mobile apps for Apps4EMS, a company serving medical
+            first-responders
+          </li>
+          <li>
+            Lead mobile app developer for Caduceus Medical Group, developing
+            apps to serve their chain of clinics in California
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
 
-          <h2>Technical Skills</h2>
-          <p>
-            React, React Native, Java, JavaScript, Mobile Application lifecycle
-          </p>
-        </dd>
-
-        <dd class="clear"></dd>
-
-        <dt>Experience</dt>
-        <dd>
-          <h2>
-            Technology Educator
-            <span
-              >Teacher/Curriculum Developer - Minneapolis, MN 2017-present</span
-            >
-          </h2>
-          <ul>
-            <li>
-              Develop and vet technical curriculum for adult web development
-              courses
-            </li>
-            <li>Teach adult web development courses</li>
-            <li>
-              Teach fun youth classes to encourage interest in tech career paths
-            </li>
-          </ul>
-
-          <h2>
-            Freelance Mobile Application Developer
-            <span>Developer - Minneapolis, MN 2015-present</span>
-          </h2>
-          <ul>
-            <li>
-              Updated existing apps to migrate them to a modern, cross-platform
-              tool
-            </li>
-            <li>
-              Developed mobile apps for Apps4EMS, a company serving medical
-              first-responders
-            </li>
-            <li>
-              Lead mobile app developer for Caduceus Medical Group, developing
-              apps to serve their chain of clinics in California
-            </li>
-          </ul>
-        </dd>
-
-        <dd class="clear"></dd>
-
-        <dt>Hobbies</dt>
-        <dd>Creative Writing</dd>
-        <dd>Swimming</dd>
-        <dd>Travel</dd>
-
-        <dd class="clear"></dd>
-
-        <dt>References</dt>
-        <dd>Available on request</dd>
-
-        <dd class="clear"></dd>
-      </dl>
-
-      <div class="clear"></div>
-    </div>
+        <h3>University of Minnesota - Twin Cities Campus</h3>
+        <p>
+          Major: Neuroscience<br />
+          Minor: Computer Science
+        </p>
+      </section>
+    </article>
+    <footer>
+      <h3>Connect with me!</h3>
+      <nav>
+        <ul>
+          <li>linkedIn</li>
+          <li>My Portfolio Website</li>
+          <li>GitHub</li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
