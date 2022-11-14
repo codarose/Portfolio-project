@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css" />  -->
     <title>Esther Rose's Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -16,6 +16,9 @@
         <h2>Front End Developer and Web Technology Educator</h2>
 
         <!--include a download link to your resume here-->
+        <a href="assets/resume.txt" download="estherroseresume.txt">
+          Download my resume
+        </a>
         <img
           src="images/mistyforest.jpg"
           alt="A misty forest with the light showing through the trees"
@@ -28,14 +31,13 @@
         Makes sure to include an alt attribute as well.
         Include a title attribute that describes the image when the mouse
         hovers over it.-->
-
         <nav id="topnav">
           <ul>
             <!--add ids to create internal page links to the relevant sections-->
-            <li>Home</li>
-            <li>About</li>
-            <li>Inspiration</li>
-            <li>Resume</li>
+            <li><a href="#bio">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#inspiration">Inspiration</a></li>
+            <li><a href="#resume">Resume</a></li>
           </ul>
         </nav>
       </header>
@@ -187,9 +189,20 @@
         <nav id="footernav">
           <ul>
             <!--create links to your professional websites here-->
-            <li><a href="">My linkedIn</a></li>
-            <li><a href="">My Website</a></li>
-            <li><a href="">My GitHub</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/esther-kearney-4757698a/"
+                target="_blank"
+              >
+                My linkedIn
+              </a>
+            </li>
+            <li><a href="www.codarose.com" target="_blank">My Website</a></li>
+            <li>
+              <a href="https://www.github.com/codarose" target="_blank">
+                My GitHub
+              </a>
+            </li>
           </ul>
         </nav>
       </footer>
